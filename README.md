@@ -4,7 +4,9 @@ Strava didn’t have some of the features that I wanted. As someone who journals
 
 Strava locks race performance predictions behind a paywall, so I implemented a custom machine learning pipeline to replicate and extend that functionality. The system ingests time-series training data, including pace distributions, weekly mileage progression, cumulative elevation gain, recovery periods, and external factors like weather, and applies regression modeling with feature engineering to capture performance trends. The model generates personalized race forecasts (e.g., 5K, 10K, half marathon) by learning from historical training data rather than relying on static heuristics, which in turn produces insights that are both more transparent and, in many cases, more accurate than strava's.
 
-The app itself is full-stack. It has a React Native frontend with a Node.js backend that connects directly to the Strava API. Beyond predictions, it also includes journaling and run planning tools, making it a more approachable companion for runners.
+It also includes run-planning tools powered by the WeatherAPI, which analyze hourly forecasts for temperature, humidity, wind, UV, and air quality. By looking at the environmental factors with a runner’s training load and recovery patterns, the app gives you a score from 0-100 for the safest and most effective windows to train.
+
+Full-stack app built with React Native (Expo), Node.js/Express, and PostgreSQL (Prisma), integrating Strava API, a custom ML pipeline, and WeatherAPI for run planning.
 
 ## Features
 
