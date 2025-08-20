@@ -14,7 +14,7 @@ The app itself is full-stack. It has a React Native frontend with a Node.js back
 - **Activity Journal**: Add notes and mood tracking to your activities
 - **Consistency Tracking**: Monitor your training consistency and streaks
 
-## 📱 Screenshots
+## Screenshots
 
 | Home | Activities | Journal |
 |------|------------|---------|
