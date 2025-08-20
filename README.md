@@ -10,6 +10,17 @@ A React Native app with a Node.js backend for Strava integration, run planning, 
 - **Activity Journal**: Add notes and mood tracking to your activities
 - **Consistency Tracking**: Monitor your training consistency and streaks
 
+## 📱 Screenshots
+
+| Home | Activities | Journal |
+|------|------------|---------|
+| ![](screenshots/home.jpg) | ![](screenshots/activities.jpg) | ![](screenshots/journal.jpg) |
+
+| Run Planner | Performance Predictor |
+|-------------|------------------------|
+| ![](screenshots/run-planner.jpg) | ![](screenshots/predictor.jpg) |
+
+
 ## Setup
 
 ### Prerequisites
@@ -99,14 +110,6 @@ EXPO_PUBLIC_SERVER_URL=http://192.168.1.100:4000
 ```bash
 npm start
 ```
-
-## Features
-
-- **Strava Integration**: Connect your Strava account and view activities
-- **Run Planner**: Get weather-based recommendations for optimal running times
-- **Performance Predictor**: Predict race times based on your training data
-- **Activity Journal**: Add notes and mood tracking to your activities
-- **Consistency Tracking**: Monitor your training consistency and streaks
 
 ## Security Notes
 
