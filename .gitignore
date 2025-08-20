@@ -1,0 +1,69 @@
+# --- Node / Backend ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment
+.env
+.env.local
+*.env.*
+!*.env.example   # keep example env files tracked
+
+# Logs
+logs
+*.log
+*.out
+*.pid
+*.gz
+
+# Coverage / tests
+coverage/
+*.lcov
+
+# Build output
+dist/
+build/
+.cache/
+.tmp/
+
+# SQLite / local DBs
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+server/dev.db
+
+# --- Expo / React Native ---
+.expo/
+.expo-shared/
+web-build/
+ios/build/
+ios/Pods/
+android/build/
+android/app/build/
+*.iml
+
+# Metro / React Native cache
+.expo-packager-cache/
+.expo-developer-tools/
+metro-cache/
+*.hprof
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.idea/
+.vscode/
+*.swp
+
+# Misc
+*.lock
+*.keystore
+*.jks
+*.p8
+*.pem
+*.mobileprovision
