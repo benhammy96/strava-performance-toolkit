@@ -1,0 +1,23 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx",
+    "noEmit": true,
+    "skipLibCheck": true,                 // ignore type errors in node_modules
+    "isolatedModules": true,
+    "types": ["react", "react-native", "expo"],
+    "baseUrl": ".",                      // needed for paths
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+  ],
+  "exclude": ["node_modules", "**/__tests__/**", "**/__mocks__/**"]
+}
+
