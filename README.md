@@ -1,6 +1,6 @@
 # Strava Project
 
-Strava didn’t have some of the features that I wanted. As someone who journals often, I wanted a cleaner and more intuitive way to capture thoughts after runs so I built a custom journaling UI that makes logging reflections simple.
+Strava didn’t have some of the features that I wanted, and as someone who journals often, I wanted a cleaner and more intuitive way to capture thoughts after runs so I built a custom journaling UI that makes logging reflections simple.
 
 Strava locks race performance predictions behind a paywall, so I implemented a custom machine learning pipeline to replicate and extend that functionality. The system ingests time-series training data, including pace distributions, weekly mileage progression, cumulative elevation gain, recovery periods, and external factors like weather, and applies regression modeling with feature engineering to capture performance trends. The model generates personalized race forecasts (e.g., 5K, 10K, half marathon) by learning from historical training data rather than relying on static heuristics, which in turn produces insights that are both more transparent and, in many cases, more accurate than strava's.
 
